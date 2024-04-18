@@ -1,36 +1,36 @@
 # outfit-anyone
 [English](https://github.com/ihmily/outfit-anyone/blob/main/README.md)  | [简体中文](https://github.com/ihmily/outfit-anyone/blob/main/README_CN.md)
 
-Outfit Anyone (Latest Fixed Version): Ultra-high quality virtual try-on for Any Clothing and Any Person
+Outfit Anyone（最新修复版）：适用于任何服装和任何人的超高品质虚拟试穿
 
 
 
 ## How to Run
 
-Pull or download the code
+拉取或下载代码
 
 ```
 git clone https://github.com/ihmily/outfit-anyone.git
 ```
 
-Install dependencies
+安装依赖
 
 ```
 cd outfit-anyone
 pip install -r requirements.txt
 ```
 
-Set up the environment variable
+设置环境变量
 
 ```
 export OA_IP_ADDRESS=https://humanaigc-outfitanyone.hf.space/--replicas/ppht9/
 ```
 
-Run
+运行
 
 ```
 python app.py
 ```
 
-If the `OA_IP_ADDRESS` becomes invalid, please contact me to update it or visit [OutfitAnyone - a Hugging Face Space by HumanAIGC](https://huggingface.co/spaces/HumanAIGC/OutfitAnyone) to get the updated address.
+如果 `OA_IP_ADDRESS` 失效请联系我更新或者访问[OutfitAnyone - a Hugging Face Space by HumanAIGC](https://huggingface.co/spaces/HumanAIGC/OutfitAnyone) 获取。
 
