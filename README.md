@@ -7,6 +7,8 @@ Outfit Anyone (Latest Fixed Version): Ultra-high quality virtual try-on for Any 
 
 ## How to Run
 
+Test Environment:  Python 3.10(ubuntu22.04)
+
 Pull or download the code
 
 ```
@@ -33,4 +35,18 @@ python app.py
 ```
 
 If the `OA_IP_ADDRESS` becomes invalid, please contact me to update it or visit [OutfitAnyone - a Hugging Face Space by HumanAIGC](https://huggingface.co/spaces/HumanAIGC/OutfitAnyone) to get the updated address.
+
+
+
+## View Results
+
+![screenshot_image](./images/Snipaste_2024-04-18_19-06-02.jpg)
+
+
+
+![screenshot_image](./images/Snipaste_2024-04-18_19-13-52.jpg)
+
+
+
+![screenshot_image](./images/Snipaste_2024-04-18_19-11-35.jpg)
 
