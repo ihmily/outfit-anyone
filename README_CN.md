@@ -7,7 +7,7 @@ Outfit Anyone（最新修复版）：适用于任何服装和任何人的超高�
 
 ## How to Run
 
-**测试环境:**  **Python 3.10(ubuntu22.04)**
+**测试环境:**  **Python 3.10(ubuntu22.04 RTX 4090)**
 
 拉取或下载代码
 
@@ -22,7 +22,7 @@ cd outfit-anyone
 pip install -r requirements.txt
 ```
 
-设置环境变量
+**（重点）设置环境变量 **
 
 ```
 export OA_IP_ADDRESS=https://humanaigc-outfitanyone.hf.space/--replicas/ppht9/
@@ -34,19 +34,25 @@ export OA_IP_ADDRESS=https://humanaigc-outfitanyone.hf.space/--replicas/ppht9/
 python app.py
 ```
 
-如果 `OA_IP_ADDRESS` 失效请联系我更新或者访问[OutfitAnyone - a Hugging Face Space by HumanAIGC](https://huggingface.co/spaces/HumanAIGC/OutfitAnyone) 获取。
+启动成功后，web服务运行在6006端口。你将看到以下类似信息
+
+```
+API: https://humanaigc-outfitanyone.hf.space/--replicas/ppht9/
+Loaded as API: https://humanaigc-outfitanyone.hf.space/--replicas/ppht9/ ✔
+Running on local URL:  http://127.0.0.1:6006
+```
+
+如果 `OA_IP_ADDRESS` 失效导致无法正常运行，请联系我更新 或者 访问[OutfitAnyone - a Hugging Face Space by HumanAIGC](https://huggingface.co/spaces/HumanAIGC/OutfitAnyone) 自行获取。
 
 
 
 ## View Results
 
-![screenshot_image](D:\Git仓库\Github\outfit-anyone\images\Snipaste_2024-04-18_19-06-02.jpg)
+![screenshot_image](./images/Snipaste_2024-04-18_19-06-02.jpg)
+
+![screenshot_image](./images/Snipaste_2024-04-18_19-13-52.jpg)
+
+![screenshot_image](./images/Snipaste_2024-04-18_19-11-35.jpg)
 
 
-
-![screenshot_image](D:\Git仓库\Github\outfit-anyone\images\Snipaste_2024-04-18_19-13-52.jpg)
-
-
-
-![screenshot_image](D:/Git仓库/Github/outfit-anyone/images/Snipaste_2024-04-18_19-11-35.jpg)
 
