@@ -5,7 +5,7 @@ Outfit Anyone（最新修复版）：适用于任何服装和任何人的超高�
 
 Outfit Anyone 的模型实际上并未开源，这个项目只是一个调用接口的客户端，模型是固定的，不能上传或修改，只支持用户上传自己的服装，生成图片。
 
-## How to Run
+## 如何运行
 
 **测试环境:**  **Python 3.10(ubuntu22.04 RTX 4090)**
 
@@ -22,7 +22,7 @@ cd outfit-anyone
 pip install -r requirements.txt
 ```
 
-**（重点）设置环境变量 **
+**设置环境变量（重点）**
 
 ```
 export OA_IP_ADDRESS=https://humanaigc-outfitanyone.hf.space/--replicas/ppht9/
@@ -46,7 +46,7 @@ Running on local URL:  http://127.0.0.1:6006
 
 
 
-## View Results
+## 演示结果
 
 ![screenshot_image](./images/Snipaste_2024-04-18_19-06-02.jpg)
 
