@@ -3,7 +3,7 @@
 
 Outfit Anyone (Latest Fixed Version): Ultra-high quality virtual try-on for Any Clothing and Any Person
 
-
+This project is actually a client that calls the interface. The model is not actually open source, models are fixed and cannot be uploaded or modified. Outfit Anyone only support users uploading their own garments.
 
 ## How to Run
 
