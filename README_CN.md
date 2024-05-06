@@ -25,7 +25,7 @@ pip install -r requirements.txt
 **设置环境变量（重点）**
 
 ```
-export OA_IP_ADDRESS=https://humanaigc-outfitanyone.hf.space/--replicas/ppht9/
+export OA_IP_ADDRESS=https://humanaigc-outfitanyone.hf.space/--replicas/5eyuf/
 ```
 
 运行
@@ -37,8 +37,8 @@ python app.py
 启动成功后，web服务运行在6006端口。你将看到以下类似信息
 
 ```
-API: https://humanaigc-outfitanyone.hf.space/--replicas/ppht9/
-Loaded as API: https://humanaigc-outfitanyone.hf.space/--replicas/ppht9/ ✔
+API: https://humanaigc-outfitanyone.hf.space/--replicas/5eyuf/
+Loaded as API: https://humanaigc-outfitanyone.hf.space/--replicas/5eyuf/ ✔
 Running on local URL:  http://127.0.0.1:6006
 ```
 
