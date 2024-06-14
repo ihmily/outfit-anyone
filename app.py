@@ -2,13 +2,11 @@ import os
 import cv2
 import random
 import gradio as gr
-from gradio_client import Client
+from gradio_client import Client, handle_file
 
 machine_number = 0
 model = os.path.join(os.path.dirname(__file__), "models/eva/Eva_0.png")
-url = os.environ['OA_IP_ADDRESS']
-print("API:", url)
-client = Client(url)
+client = Client("HumanAIGC/OutfitAnyone")
 
 MODEL_MAP = {
     "AI Model Rouyan_0": 'models/rouyan_new/Rouyan_0.png',
@@ -45,8 +43,10 @@ def get_tryon_result(model_name, garment1, garment2, seed=1234):
     _model = "AI Model " + model_name.split("/")[-1].split(".")[0]  # linux
     print("Use Model:", _model)
     seed = random.randint(0, 1222222222)
+    garment1 = handle_file(garment1) if garment1 else None
+    garment2 = handle_file(garment2) if garment2 else None
     result = client.predict(
-        model_name,
+        handle_file(model_name),
         garment1,
         garment2,
         api_name="/get_tryon_result",
@@ -66,7 +66,7 @@ def remove_watermark2(path):
     x_start = max(int(0.3 * w), 0)
     x_end = w
 
-    img_[y_start:y_end, x_start:x_end, :] = [255, 255, 255]  # 白色 RGB 值为 [255, 255, 255]
+    img_[y_start:y_end, x_start:x_end, :] = [255, 255, 255]
 
     return img_
 
