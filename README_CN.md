@@ -7,7 +7,7 @@ Outfit Anyone 的模型实际上并未开源，这个项目只是一个调用接
 
 ## 如何运行
 
-**测试环境:**  **Python 3.10(ubuntu22.04 RTX 4090)**
+**测试环境:**  **Python 3.10**
 
 拉取或下载代码
 
@@ -22,10 +22,10 @@ cd outfit-anyone
 pip install -r requirements.txt
 ```
 
-**设置环境变量（重点）**
+~~**设置环境变量（重点）*~~
 
 ```
-export OA_IP_ADDRESS=https://humanaigc-outfitanyone.hf.space/--replicas/5eyuf/
+
 ```
 
 运行
@@ -37,12 +37,11 @@ python app.py
 启动成功后，web服务运行在6006端口。你将看到以下类似信息
 
 ```
-API: https://humanaigc-outfitanyone.hf.space/--replicas/5eyuf/
-Loaded as API: https://humanaigc-outfitanyone.hf.space/--replicas/5eyuf/ ✔
+Loaded as API: https://humanaigc-outfitanyone.hf.space ✔
 Running on local URL:  http://127.0.0.1:6006
 ```
 
-如果 `OA_IP_ADDRESS` 失效导致无法正常运行，请联系我更新 或者 访问[OutfitAnyone - a Hugging Face Space by HumanAIGC](https://huggingface.co/spaces/HumanAIGC/OutfitAnyone) 自行获取。
+访问 [OutfitAnyone - a Hugging Face Space by HumanAIGC](https://huggingface.co/spaces/HumanAIGC/OutfitAnyone) 了解更多。
 
 
 

@@ -7,7 +7,7 @@ This project is actually a client that calls the interface. The model is not act
 
 ## How to Run
 
-**Test Environment:  Python 3.10(ubuntu22.04 RTX 4090)**
+**Test Environment:  Python 3.10(No computational power required)**
 
 Pull or download the code
 
@@ -22,10 +22,10 @@ cd outfit-anyone
 pip install -r requirements.txt
 ```
 
-**Set up the environment variable**
+~~**Set up the environment variable**~~
 
 ```
-export OA_IP_ADDRESS=https://humanaigc-outfitanyone.hf.space/--replicas/5eyuf/
+
 ```
 
 Run
@@ -37,14 +37,13 @@ python app.py
 Success log
 
 ```
-API: https://humanaigc-outfitanyone.hf.space/--replicas/5eyuf/
-Loaded as API: https://humanaigc-outfitanyone.hf.space/--replicas/5eyuf/ ✔
+Loaded as API: https://humanaigc-outfitanyone.hf.space ✔
 Running on local URL:  http://127.0.0.1:6006
 ```
 
 Please visit http://127.0.0.1:6006 to web. 
 
-If the `OA_IP_ADDRESS` becomes invalid and causes issues with normal operation, please contact me for an update, or visit [OutfitAnyone - a Hugging Face Space by HumanAIGC](https://huggingface.co/spaces/HumanAIGC/OutfitAnyone) to obtain it yourself.
+Visit [OutfitAnyone - a Hugging Face Space by HumanAIGC](https://huggingface.co/spaces/HumanAIGC/OutfitAnyone) Learn more.
 
 ## View Results
 
